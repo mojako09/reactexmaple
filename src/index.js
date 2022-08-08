@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Click from "./pages/Click";
 import BtnThree from "./pages/BtnThree";
 import TimeCou from "./pages/TimeCou";
+import ListItem from "./pages/ListItem";
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
           <Route path="Click" element={<Click />} />
           <Route path="BtnThree" element={<BtnThree />} />
           <Route path="TimeCou" element={<TimeCou />} />
-    
+          <Route path="ListItem" element={<ListItem />} />
         </Route>
       </Routes>
     </BrowserRouter>
